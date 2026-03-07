@@ -3,75 +3,312 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About | JM Electric LLC</title>
-  <meta name="description" content="About page concept for JM Electric LLC in Kapolei, Hawaii." />
+  <title>About Us | JM Electric LLC &mdash; Kapolei, Oahu</title>
+  <meta name="description" content="About JM Electric LLC — licensed electrical contractor in Kapolei, Oahu. Founded in 2010 by Jaime Garcia. Top 1% BuildZoom ranking with 319+ permitted projects across Hawaii." />
+  <link rel="icon" href="img/jm_electric_favicon.ico" type="image/x-icon" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
+
+  <!-- ── HEADER ─────────────────────────────────────────────────── -->
   <header class="topbar">
     <div class="container inner">
-      <a class="brand" href="index.html"><div class="logo-badge"><div class="logo-mark">JM</div></div><div class="brand-copy"><strong>JM Electric LLC</strong><span>Kapolei, Oahu, Hawaii</span></div></a>
-      <nav class="nav"><a href="index.html">Home</a><a href="services.html">Services</a><a class="active" href="about.html">About</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a></nav>
-      <div class="cta-group"><a class="btn secondary" href="contact.html">Request Service</a><a class="btn primary" href="tel:+18085514517">Call (808) 551-4517</a></div>
+      <a class="brand" href="index.html">
+        <div class="brand-logo">
+          <img src="img/Gemini_Generated_Image_ub707tub707tub70.png" alt="JM Electric LLC logo" />
+        </div>
+        <div class="brand-copy">
+          <strong>JM Electric LLC</strong>
+          <span>Kapolei &middot; Oahu, Hawaii</span>
+        </div>
+      </a>
+      <button class="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a class="active" href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="cta-group">
+        <a class="btn secondary sm" href="contact.html">Request Service</a>
+        <a class="btn primary sm" href="tel:+18085514517">&#9889; (808) 551-4517</a>
+      </div>
     </div>
   </header>
 
   <main>
+
+    <!-- ── PAGE HERO ──────────────────────────────────────────────── -->
     <section class="page-hero">
-      <div class="container wrap">
+      <div class="container page-hero-grid">
         <div>
-          <div class="eyebrow">Trust page, licensing signals, story structure</div>
-          <h1>An about page built for trust, not fluff.</h1>
-          <p>This page gives future customers a cleaner sense of who JM Electric LLC is, where the company is based, and why a visitor should feel comfortable making contact. No chest beating. No mystical contractor fog. Clean trust signals win.</p>
+          <div class="eyebrow">Licensed. Local. Trusted Since 2010.</div>
+          <h1>Kapolei&rsquo;s Trusted<br>Electrical Team.</h1>
+          <p>JM Electric LLC has been serving Oahu homeowners and businesses since January 2010 &mdash; built on honest work, licensed craftsmanship, and a record that speaks for itself.</p>
+          <div class="page-hero-actions">
+            <a class="btn primary lg" href="tel:+18085514517">&#9889; (808) 551-4517</a>
+            <a class="btn secondary" href="gallery.html">See Our Work</a>
+          </div>
+          <div class="trust-strip" style="margin-top:28px;">
+            <div class="trust-badge"><span class="check">&#10003;</span> Founded 2010</div>
+            <div class="trust-badge"><span class="check">&#10003;</span> <strong>5</strong> HI Licenses</div>
+            <div class="trust-badge"><span class="check">&#10003;</span> Top 1% BuildZoom</div>
+          </div>
         </div>
-        <div class="photo-frame" data-label="Team and Trust"><div class="photo-abstract"></div></div>
+        <div class="page-hero-img">
+          <img src="img/jm-logo.JPG" alt="JM Electric LLC official logo — Kapolei, Oahu Hawaii" style="background:#f0f4f7;" />
+        </div>
       </div>
     </section>
 
-    <section>
-      <div class="container grid-2">
-        <article class="card reveal">
-          <div class="kicker">Company snapshot</div>
-          <h3>Kapolei-based electrical contractor</h3>
-          <p>Public business profiles place JM Electric LLC at 91-1084 Kahalepouli St in Kapolei, Hawaii, with phone number (808) 551-4517 and a company website at jmelect.com. Public profiles also connect the business to electrical contractor licensing in Hawaii.</p>
-        </article>
-        <article class="card reveal">
-          <div class="kicker">Trust layer</div>
-          <h3>What this page highlights</h3>
-          <ul class="clean">
-            <li>Base location and Oahu service framing</li>
-            <li>Licensing and contractor profile references</li>
-            <li>Plain-language mission and work standards</li>
-            <li>Future room for team photos and certifications</li>
-          </ul>
-        </article>
-      </div>
-    </section>
-
-    <section>
+    <!-- ── STATS BAND ─────────────────────────────────────────────── -->
+    <div class="stats-band">
       <div class="container">
-        <div class="section-head reveal"><h2>Suggested company story structure</h2><p>The exact origin story was not fully available in the public sources I reviewed, so this page uses safe, editable placeholders for narrative while keeping verified facts separate.</p></div>
-        <div class="timeline">
-          <article class="timeline-card reveal"><strong>Who we are</strong><div class="timeline-card__body"><h3>Local electrical contractor serving Oahu</h3><p>State the company name, service area, and focus in one short paragraph. Lead with the work, not vague slogans.</p></div></article>
-          <article class="timeline-card reveal"><strong>How we work</strong><div class="timeline-card__body"><h3>Safety, communication, and clean execution</h3><p>Use this block to explain project communication, jobsite respect, scheduling, and the type of jobs handled most often.</p></div></article>
-          <article class="timeline-card reveal"><strong>Proof</strong><div class="timeline-card__body"><h3>Licensing, permit activity, and review signals</h3><p>Add license verification details, project photos, and customer reviews as the site grows. The structure is already ready for it.</p></div></article>
+        <div class="band-inner">
+          <div class="stat-block">
+            <span class="num">2010</span>
+            <span class="lbl">Year Founded</span>
+          </div>
+          <div class="stat-block">
+            <span class="num">319+</span>
+            <span class="lbl">Permitted Projects</span>
+          </div>
+          <div class="stat-block">
+            <span class="num">122</span>
+            <span class="lbl">BuildZoom Score</span>
+          </div>
+          <div class="stat-block">
+            <span class="num">5</span>
+            <span class="lbl">Active HI Licenses</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── COMPANY STORY ──────────────────────────────────────────── -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Our Story</h2>
+        </div>
+        <div class="grid-2">
+          <div class="reveal-left">
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-node">2010</div>
+                <div class="timeline-body">
+                  <h3>JM Electric LLC is Founded</h3>
+                  <p>Jaime Garcia establishes JM Electric LLC in Kapolei, Oahu with a commitment to delivering safe, reliable, and code-compliant electrical work to island homes and businesses.</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-node">Growth</div>
+                <div class="timeline-body">
+                  <h3>Expanding Across Oahu</h3>
+                  <p>From residential panel replacements in Ewa Beach to commercial conduit systems in Honolulu, JM Electric grows into one of the most permit-active contractors on the island.</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-node">Today</div>
+                <div class="timeline-body">
+                  <h3>Top 1% in Hawaii &mdash; Still Going</h3>
+                  <p>With 319+ permitted projects, a BuildZoom score of 122, and 5 active Hawaii licenses, JM Electric LLC stands in the top 1% of all licensed contractors in the state.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="reveal-right" style="display:flex;flex-direction:column;gap:18px;">
+            <div class="card">
+              <div class="kicker">Our Mission</div>
+              <h3>Safe, Reliable Electrical Work</h3>
+              <p>Every project we take on &mdash; from a single outlet to a full commercial build-out &mdash; gets the same attention to code compliance, workmanship, and clear communication with the client.</p>
+              <div class="glow-blob"></div>
+            </div>
+            <div class="card">
+              <div class="kicker">Our Approach</div>
+              <h3>Show Up, Do It Right, Clean Up</h3>
+              <p>We show up on time, communicate throughout the job, and leave the site clean. No mystery charges. No cutting corners on materials or code. That&rsquo;s the JM Electric standard.</p>
+              <div class="glow-blob"></div>
+            </div>
+            <div class="card">
+              <div class="kicker">Why It Matters</div>
+              <h3>You Know Who&rsquo;s Coming</h3>
+              <p>You&rsquo;re inviting us into your home or business. JM Electric LLC is a licensed, insured, and verified Hawaii contractor &mdash; not a Craigslist post. That distinction matters.</p>
+              <div class="glow-blob"></div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section>
-      <div class="container grid-3">
-        <article class="quote-card reveal"><div class="kicker">Mission block</div><h3>Safe, reliable electrical work</h3><p>Keep the mission short. Focus on safe work, clear communication, and dependable project execution for homes and businesses on Oahu.</p></article>
-        <article class="quote-card reveal"><div class="kicker">Why people care</div><h3>Trust before the first call</h3><p>Customers want to know who is showing up, whether the business is real, and whether the work feels organized. This page handles that job.</p></article>
-        <article class="quote-card reveal"><div class="kicker">Future additions</div><h3>Certifications and team bios</h3><p>Once verified details are gathered, this page is ready for license numbers, safety certifications, team bios, and trade association logos.</p></article>
+    <!-- ── TEAM IN ACTION ─────────────────────────────────────────── -->
+    <section class="section" style="padding-top:0;">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Our Team at Work</h2>
+        </div>
+        <div class="grid-2">
+          <div class="gallery-card reveal-left" style="height:320px;">
+            <img src="img/IMG_71362.JPG" alt="JM Electric technician performing residential electrical installation" style="height:100%;object-fit:cover;" />
+            <div class="overlay">
+              <h4>Residential Installation</h4>
+              <p>Electrical rough-in work on Oahu</p>
+            </div>
+          </div>
+          <div class="gallery-card reveal-right" style="height:320px;">
+            <img src="img/IMG_4031.JPG" alt="JM Electric team member drilling conduit on commercial project" style="height:100%;object-fit:cover;" />
+            <div class="overlay">
+              <h4>Commercial Conduit Work</h4>
+              <p>Professional conduit installation</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
+
+    <!-- ── CREDENTIALS ────────────────────────────────────────────── -->
+    <section class="section" style="padding-top:0;">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Credentials &amp; Licensing</h2>
+        </div>
+        <div class="grid-3">
+          <div class="card reveal">
+            <div class="kicker">Primary License</div>
+            <h3>Hawaii Electrical Contractor</h3>
+            <p>JM Electric LLC holds an active Electrical Contractor license issued by the Hawaii Department of Commerce and Consumer Affairs (DCCA). All work is performed to Hawaii building code standards.</p>
+            <div class="glow-blob"></div>
+          </div>
+          <div class="card reveal">
+            <div class="kicker">Additional Licenses</div>
+            <h3>4 More Active Licenses</h3>
+            <p>Beyond the primary electrical contractor license, JM Electric LLC carries four additional active Hawaii contractor licenses &mdash; enabling a broader scope of work across project types.</p>
+            <div class="glow-blob"></div>
+          </div>
+          <div class="card reveal">
+            <div class="kicker">Third-Party Verified</div>
+            <h3>BuildZoom Score: 122</h3>
+            <p>BuildZoom&rsquo;s independent contractor scoring places JM Electric LLC in the top 1% of 3,768 Hawaii licensed contractors, based on permit activity, reviews, and licensing data.</p>
+            <div class="glow-blob"></div>
+          </div>
+        </div>
+
+        <!-- Credential badges -->
+        <div class="trust-strip reveal" style="margin-top:28px;justify-content:center;">
+          <div class="trust-badge">
+            <span class="check">&#10003;</span>
+            <strong>Licensed</strong> Hawaii DCCA
+          </div>
+          <div class="trust-badge">
+            <span class="check">&#10003;</span>
+            <strong>Insured</strong> Residential &amp; Commercial
+          </div>
+          <div class="trust-badge">
+            <span class="check">&#10003;</span>
+            <strong>122</strong> BuildZoom Score
+          </div>
+          <div class="trust-badge">
+            <span class="check">&#10003;</span>
+            <strong>Top 1%</strong> Hawaii Contractors
+          </div>
+          <div class="trust-badge">
+            <span class="check">&#10003;</span>
+            <strong>15+</strong> Years on Oahu
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SERVICE AREA ────────────────────────────────────────────── -->
+    <section class="section" style="padding-top:0;">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Where We Work</h2>
+        </div>
+        <div class="area-strip reveal">
+          <span class="area-label">Oahu Service Area</span>
+          <div class="areas">
+            <span class="area-pill">Kapolei</span>
+            <span class="area-pill">Ewa Beach</span>
+            <span class="area-pill">Pearl City</span>
+            <span class="area-pill">Honolulu</span>
+            <span class="area-pill">Aiea</span>
+            <span class="area-pill">Waipahu</span>
+            <span class="area-pill">Mililani</span>
+            <span class="area-pill">Kailua</span>
+            <span class="area-pill">Kaneohe</span>
+            <span class="area-pill">Haleiwa</span>
+            <span class="area-pill">Waianae</span>
+            <span class="area-pill">Waikiki</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CTA BANNER ─────────────────────────────────────────────── -->
+    <section class="section" style="padding-top:0;">
+      <div class="container">
+        <div class="cta-banner reveal">
+          <div class="eyebrow" style="margin:0 auto 16px;">15 years on Oahu</div>
+          <h2>Work With a Contractor You Can Trust</h2>
+          <p>Licensed, insured, and locally established since 2010. Give us a call and let&rsquo;s talk about your project.</p>
+          <div class="actions">
+            <a class="btn primary lg" href="tel:+18085514517">&#9889; Call (808) 551-4517</a>
+            <a class="btn secondary" href="contact.html">Request a Quote</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
 
-  <footer class="footer"><div class="container footer-grid"><div><strong>JM Electric LLC</strong><br>91-1084 Kahalepouli St, Kapolei, HI 96707</div><div class="footer-nav"><a href="index.html">Home</a><a href="services.html">Services</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a></div></div></footer>
+  <!-- ── FOOTER ─────────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand-logo">
+            <img src="img/Gemini_Generated_Image_ub707tub707tub70.png" alt="JM Electric LLC" />
+          </div>
+          <strong>JM Electric LLC</strong>
+          <p>Licensed electrical contractor<br>serving all of Oahu, Hawaii<br>since January 2010.</p>
+          <p style="margin-top:14px;font-size:0.84rem;">91-1084 Kahalepouli St<br>Kapolei, HI 96707</p>
+        </div>
+        <div class="footer-col">
+          <h5>Services</h5>
+          <a href="services.html">Panel Upgrades</a>
+          <a href="services.html">Wiring &amp; Repairs</a>
+          <a href="services.html">Commercial Work</a>
+          <a href="services.html">Smart Systems</a>
+          <a href="services.html">Solar-Ready</a>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <a href="about.html">About Us</a>
+          <a href="gallery.html">Our Work</a>
+          <a href="contact.html">Contact</a>
+          <a href="https://jmelect.com" target="_blank" rel="noopener">jmelect.com</a>
+        </div>
+        <div class="footer-col">
+          <h5>Contact</h5>
+          <a href="tel:+18085514517">(808) 551-4517</a>
+          <a href="https://maps.google.com/?q=91-1084+Kahalepouli+St+Kapolei+HI+96707" target="_blank" rel="noopener">Get Directions</a>
+          <a href="contact.html">Request a Quote</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2025 JM Electric LLC &middot; Kapolei, Oahu, Hawaii</span>
+        <span>Licensed Electrical Contractor &middot; Hawaii DCCA</span>
+      </div>
+    </div>
+  </footer>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
   <script src="assets/main.js"></script>

@@ -3,81 +3,332 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact | JM Electric LLC</title>
-  <meta name="description" content="Contact page concept for JM Electric LLC in Kapolei, Hawaii." />
+  <title>Contact | JM Electric LLC &mdash; Kapolei, Oahu</title>
+  <meta name="description" content="Contact JM Electric LLC in Kapolei, Oahu. Call (808) 551-4517, request a quote, or send a message. Serving all of Oahu for residential and commercial electrical." />
+  <link rel="icon" href="img/jm_electric_favicon.ico" type="image/x-icon" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
+
+  <!-- ── HEADER ─────────────────────────────────────────────────── -->
   <header class="topbar">
     <div class="container inner">
-      <a class="brand" href="index.html"><div class="logo-badge"><div class="logo-mark">JM</div></div><div class="brand-copy"><strong>JM Electric LLC</strong><span>Kapolei, Oahu, Hawaii</span></div></a>
-      <nav class="nav"><a href="index.html">Home</a><a href="services.html">Services</a><a href="about.html">About</a><a href="gallery.html">Gallery</a><a class="active" href="contact.html">Contact</a></nav>
-      <div class="cta-group"><a class="btn secondary" href="services.html">View Services</a><a class="btn primary" href="tel:+18085514517">Call (808) 551-4517</a></div>
+      <a class="brand" href="index.html">
+        <div class="brand-logo">
+          <img src="img/Gemini_Generated_Image_ub707tub707tub70.png" alt="JM Electric LLC logo" />
+        </div>
+        <div class="brand-copy">
+          <strong>JM Electric LLC</strong>
+          <span>Kapolei &middot; Oahu, Hawaii</span>
+        </div>
+      </a>
+      <button class="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a class="active" href="contact.html">Contact</a>
+      </nav>
+      <div class="cta-group">
+        <a class="btn secondary sm" href="services.html">View Services</a>
+        <a class="btn primary sm" href="tel:+18085514517">&#9889; (808) 551-4517</a>
+      </div>
     </div>
   </header>
 
   <main>
+
+    <!-- ── PAGE HERO ──────────────────────────────────────────────── -->
     <section class="page-hero">
-      <div class="container wrap">
+      <div class="container page-hero-grid">
         <div>
-          <div class="eyebrow">Conversion page with multiple contact paths</div>
-          <h1>Make it easy to call, message, and start the project.</h1>
-          <p>This page is built as the conversion hub. Phone number, business address, website, contact form layout, and a simple service-area map concept are all in one place.</p>
+          <div class="eyebrow">Kapolei &middot; All of Oahu</div>
+          <h1>Let&rsquo;s Get the<br>Job Done.</h1>
+          <p>Call, send a message, or drop by. JM Electric LLC serves all of Oahu from our Kapolei base &mdash; residential, commercial, and specialty electrical projects.</p>
+          <div class="page-hero-actions">
+            <a class="btn primary lg" href="tel:+18085514517">&#9889; Call Now &mdash; (808) 551-4517</a>
+          </div>
+          <div class="emergency-badge" style="margin-top:20px;">
+            <span class="pulse-dot"></span>
+            Serving Oahu &mdash; Residential &amp; Commercial
+          </div>
         </div>
-        <div class="photo-frame" data-label="Fast Contact"><div class="photo-abstract"></div></div>
-      </div>
-    </section>
-
-    <section>
-      <div class="container contact-layout">
-        <div>
-          <article class="contact-card reveal"><div class="kicker">Primary contact</div><h3>Call JM Electric LLC</h3><p><a href="tel:+18085514517">(808) 551-4517</a></p></article>
-          <article class="contact-card reveal"><div class="kicker">Business address</div><h3>Kapolei office</h3><p>91-1084 Kahalepouli St<br>Kapolei, HI 96707</p></article>
-          <article class="contact-card reveal"><div class="kicker">Website</div><h3>jmelect.com</h3><p><a href="https://jmelect.com/" target="_blank" rel="noopener">Visit current website</a></p></article>
-        </div>
-        <div class="card reveal">
-          <div class="kicker">Inquiry form</div>
-          <h3>Project request</h3>
-          <form>
-            <div class="form-grid">
-              <input type="text" placeholder="Name" />
-              <input type="tel" placeholder="Phone" />
-              <input type="email" placeholder="Email" />
-              <select>
-                <option>Service Type</option>
-                <option>Panel Upgrade</option>
-                <option>Lighting</option>
-                <option>Repairs</option>
-                <option>Commercial Electrical</option>
-              </select>
-            </div>
-            <div style="margin-top:14px"><textarea placeholder="Tell us about the job"></textarea></div>
-            <div style="margin-top:14px"><button class="btn primary" type="button">Submit Inquiry</button></div>
-          </form>
+        <div class="page-hero-img" style="background:#0d2235;">
+          <!-- Logo hero variant -->
+          <img src="img/jm-logo.JPG" alt="JM Electric LLC official logo — Kapolei, Oahu" style="background:#f0f4f7;height:100%;object-fit:contain;padding:40px;" />
         </div>
       </div>
     </section>
 
-    <section>
+    <!-- ── CONTACT INFO + FORM ────────────────────────────────────── -->
+    <section class="section" style="padding-top:0;">
       <div class="container">
-        <div class="section-head reveal"><h2>Oahu service map concept</h2><p>This is a stylized placeholder panel for a future embedded map. It keeps the layout clean for GitHub Pages while showing the intended service-area section.</p></div>
+        <div class="grid-2" style="gap:28px;align-items:start;">
+
+          <!-- Left: contact cards -->
+          <div style="display:flex;flex-direction:column;gap:14px;">
+
+            <div class="contact-card reveal-left">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="#29a8ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 11.5 19.79 19.79 0 01.01 2.82 2 2 0 012 .67h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 8.37a16 16 0 006.54 6.54l1.06-1.06a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+                </svg>
+              </div>
+              <div class="contact-info">
+                <div class="label">Phone</div>
+                <strong><a href="tel:+18085514517">(808) 551-4517</a></strong>
+                <a href="tel:+18085514517" style="font-size:0.85rem;">Tap to call now</a>
+              </div>
+            </div>
+
+            <div class="contact-card reveal-left">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="#29a8ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                  <circle cx="12" cy="10" r="3"/>
+                </svg>
+              </div>
+              <div class="contact-info">
+                <div class="label">Address</div>
+                <strong>91-1084 Kahalepouli St</strong>
+                <span style="color:var(--muted);font-size:0.9rem;">Kapolei, HI 96707</span>
+                <a href="https://maps.google.com/?q=91-1084+Kahalepouli+St+Kapolei+HI+96707" target="_blank" rel="noopener">Get Directions &#8594;</a>
+              </div>
+            </div>
+
+            <div class="contact-card reveal-left">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="#29a8ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"/>
+                  <path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/>
+                </svg>
+              </div>
+              <div class="contact-info">
+                <div class="label">Website</div>
+                <strong>jmelect.com</strong>
+                <a href="https://jmelect.com" target="_blank" rel="noopener">Visit main website &#8594;</a>
+              </div>
+            </div>
+
+            <div class="contact-card reveal-left">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="#29a8ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/>
+                </svg>
+              </div>
+              <div class="contact-info">
+                <div class="label">Business Hours</div>
+                <strong>Mon &ndash; Fri: 7:00am &ndash; 5:00pm</strong>
+                <span style="color:var(--muted);font-size:0.88rem;">Saturday by appointment &middot; Closed Sunday</span>
+              </div>
+            </div>
+
+            <!-- Service area -->
+            <div class="area-strip reveal-left" style="margin-top:4px;">
+              <span class="area-label">Service Area</span>
+              <div class="areas">
+                <span class="area-pill">Kapolei</span>
+                <span class="area-pill">Ewa Beach</span>
+                <span class="area-pill">Pearl City</span>
+                <span class="area-pill">Honolulu</span>
+                <span class="area-pill">Aiea</span>
+                <span class="area-pill">Waipahu</span>
+                <span class="area-pill">Mililani</span>
+                <span class="area-pill">Kailua</span>
+                <span class="area-pill">Kaneohe</span>
+                <span class="area-pill">Haleiwa</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Right: inquiry form -->
+          <div class="form-wrap reveal-right">
+            <div class="kicker" style="margin-bottom:6px;">Get in Touch</div>
+            <h3 style="margin-bottom:20px;font-size:1.35rem;">Send a Project Request</h3>
+            <form action="#" method="post" onsubmit="handleFormSubmit(event)">
+              <div class="form-row">
+                <div class="field">
+                  <label for="name">Your Name</label>
+                  <input type="text" id="name" name="name" placeholder="John Kahananui" required />
+                </div>
+                <div class="field">
+                  <label for="phone">Phone Number</label>
+                  <input type="tel" id="phone" name="phone" placeholder="(808) 555-1234" />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="field">
+                  <label for="email">Email Address</label>
+                  <input type="email" id="email" name="email" placeholder="you@example.com" />
+                </div>
+                <div class="field">
+                  <label for="service">Service Needed</label>
+                  <select id="service" name="service">
+                    <option value="" disabled selected>Select a service&hellip;</option>
+                    <option value="panel">Panel Upgrade</option>
+                    <option value="wiring">Wiring / Rewiring</option>
+                    <option value="outlets">Outlets &amp; Switches</option>
+                    <option value="lighting">Lighting Installation</option>
+                    <option value="commercial">Commercial Electrical</option>
+                    <option value="conduit">Conduit / Raceway</option>
+                    <option value="fire-alarm">Fire Alarm Systems</option>
+                    <option value="access">Access Control</option>
+                    <option value="solar">Solar-Ready / Sub-Panel</option>
+                    <option value="smart">Smart Home / A&amp;V</option>
+                    <option value="repair">Electrical Repair</option>
+                    <option value="other">Other / Not Sure</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-row full">
+                <div class="field">
+                  <label for="location">Job Location / Area</label>
+                  <input type="text" id="location" name="location" placeholder="e.g. Ewa Beach, Kapolei, Honolulu&hellip;" />
+                </div>
+              </div>
+              <div class="form-row full">
+                <div class="field">
+                  <label for="message">Tell Us About the Job</label>
+                  <textarea id="message" name="message" placeholder="Describe the project, any existing issues, and the best time to reach you&hellip;"></textarea>
+                </div>
+              </div>
+              <div style="margin-top:4px;">
+                <button class="btn primary lg" type="submit" style="width:100%;">
+                  Send Request &#8594;
+                </button>
+              </div>
+              <p id="form-msg" style="margin-top:12px;text-align:center;font-size:0.88rem;display:none;color:var(--success);">
+                &#10003; Message sent! We&rsquo;ll be in touch soon.
+              </p>
+              <p style="margin-top:14px;text-align:center;font-size:0.82rem;color:var(--dimmed);">
+                Prefer to call? <a href="tel:+18085514517" style="color:var(--primary);">(808) 551-4517</a>
+              </p>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SERVICE MAP ────────────────────────────────────────────── -->
+    <section class="section" style="padding-top:0;">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Oahu Service Area</h2>
+        </div>
         <div class="map-box reveal">
           <div class="map-grid"></div>
-          <div class="map-route"></div>
-          <div class="map-pin pin-1"></div>
-          <div class="map-pin pin-2"></div>
-          <div class="map-pin pin-3"></div>
+          <div class="map-glow map-glow-1"></div>
+          <div class="map-glow map-glow-2"></div>
+          <!-- Pins: approximate island locations -->
+          <div class="map-pin main"></div> <!-- Kapolei -->
+          <div class="map-pin p2"></div>   <!-- Pearl City -->
+          <div class="map-pin p3"></div>   <!-- Honolulu -->
+          <div class="map-pin p4"></div>   <!-- Kailua -->
+          <div class="map-pin p5"></div>   <!-- Ewa Beach -->
+          <!-- Labels -->
+          <div class="map-lbl l1">Kapolei (HQ)</div>
+          <div class="map-lbl l2">Pearl City / Aiea</div>
+          <div class="map-lbl l3">Honolulu</div>
+          <div class="map-lbl l4">Windward Oahu</div>
+          <div class="map-title">JM Electric LLC &mdash; Oahu Coverage</div>
+        </div>
+        <p style="text-align:center;margin-top:16px;font-size:0.88rem;color:var(--dimmed);">
+          Based in Kapolei &middot; Serving the entire island of Oahu &middot;
+          <a href="https://maps.google.com/?q=91-1084+Kahalepouli+St+Kapolei+HI+96707" target="_blank" rel="noopener" style="color:var(--primary);">Open in Google Maps &#8594;</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- ── QUICK DIAL CTA ─────────────────────────────────────────── -->
+    <section class="section" style="padding-top:0;">
+      <div class="container">
+        <div class="cta-banner reveal">
+          <div class="eyebrow" style="margin:0 auto 16px;">Fastest response</div>
+          <h2>Call Us Directly</h2>
+          <p>The fastest way to get a quote or schedule service is a phone call. JM Electric LLC answers calls during business hours Monday through Friday.</p>
+          <div class="actions">
+            <a class="btn primary lg" href="tel:+18085514517">&#9889; (808) 551-4517</a>
+          </div>
+          <p style="margin-top:18px;font-size:0.85rem;">
+            91-1084 Kahalepouli St &middot; Kapolei, HI 96707 &middot;
+            <a href="https://jmelect.com" target="_blank" rel="noopener" style="color:var(--primary);">jmelect.com</a>
+          </p>
         </div>
       </div>
     </section>
+
   </main>
 
-  <footer class="footer"><div class="container footer-grid"><div><strong>JM Electric LLC</strong><br>91-1084 Kahalepouli St, Kapolei, HI 96707</div><div class="footer-nav"><a href="index.html">Home</a><a href="services.html">Services</a><a href="about.html">About</a><a href="gallery.html">Gallery</a></div></div></footer>
+  <!-- ── FOOTER ─────────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand-logo">
+            <img src="img/Gemini_Generated_Image_ub707tub707tub70.png" alt="JM Electric LLC" />
+          </div>
+          <strong>JM Electric LLC</strong>
+          <p>Licensed electrical contractor<br>serving all of Oahu, Hawaii<br>since January 2010.</p>
+          <p style="margin-top:14px;font-size:0.84rem;">91-1084 Kahalepouli St<br>Kapolei, HI 96707</p>
+        </div>
+        <div class="footer-col">
+          <h5>Services</h5>
+          <a href="services.html">Panel Upgrades</a>
+          <a href="services.html">Wiring &amp; Repairs</a>
+          <a href="services.html">Commercial Work</a>
+          <a href="services.html">Smart Systems</a>
+          <a href="services.html">Solar-Ready</a>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <a href="about.html">About Us</a>
+          <a href="gallery.html">Our Work</a>
+          <a href="contact.html">Contact</a>
+          <a href="https://jmelect.com" target="_blank" rel="noopener">jmelect.com</a>
+        </div>
+        <div class="footer-col">
+          <h5>Contact</h5>
+          <a href="tel:+18085514517">(808) 551-4517</a>
+          <a href="https://maps.google.com/?q=91-1084+Kahalepouli+St+Kapolei+HI+96707" target="_blank" rel="noopener">Get Directions</a>
+          <a href="contact.html">Request a Quote</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2025 JM Electric LLC &middot; Kapolei, Oahu, Hawaii</span>
+        <span>Licensed Electrical Contractor &middot; Hawaii DCCA</span>
+      </div>
+    </div>
+  </footer>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
   <script src="assets/main.js"></script>
+  <script>
+    function handleFormSubmit(e) {
+      e.preventDefault();
+      const btn = e.target.querySelector('[type=submit]');
+      const msg = document.getElementById('form-msg');
+      btn.textContent = 'Sending\u2026';
+      btn.disabled = true;
+      setTimeout(() => {
+        btn.textContent = '\u2713 Sent!';
+        msg.style.display = 'block';
+        e.target.reset();
+        setTimeout(() => {
+          btn.textContent = 'Send Request \u2192';
+          btn.disabled = false;
+          msg.style.display = 'none';
+        }, 4000);
+      }, 900);
+    }
+  </script>
 </body>
 </html>

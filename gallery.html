@@ -3,56 +3,341 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gallery | JM Electric LLC</title>
-  <meta name="description" content="Gallery page concept for JM Electric LLC with project categories for GitHub Pages." />
+  <title>Gallery | JM Electric LLC &mdash; Project Photos Oahu</title>
+  <meta name="description" content="Photo gallery of JM Electric LLC projects on Oahu — panel upgrades, commercial conduit, fire alarm systems, access control, and team in action." />
+  <link rel="icon" href="img/jm_electric_favicon.ico" type="image/x-icon" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
+
+  <!-- ── HEADER ─────────────────────────────────────────────────── -->
   <header class="topbar">
     <div class="container inner">
-      <a class="brand" href="index.html"><div class="logo-badge"><div class="logo-mark">JM</div></div><div class="brand-copy"><strong>JM Electric LLC</strong><span>Kapolei, Oahu, Hawaii</span></div></a>
-      <nav class="nav"><a href="index.html">Home</a><a href="services.html">Services</a><a href="about.html">About</a><a class="active" href="gallery.html">Gallery</a><a href="contact.html">Contact</a></nav>
-      <div class="cta-group"><a class="btn secondary" href="contact.html">Request Service</a><a class="btn primary" href="tel:+18085514517">Call (808) 551-4517</a></div>
+      <a class="brand" href="index.html">
+        <div class="brand-logo">
+          <img src="img/Gemini_Generated_Image_ub707tub707tub70.png" alt="JM Electric LLC logo" />
+        </div>
+        <div class="brand-copy">
+          <strong>JM Electric LLC</strong>
+          <span>Kapolei &middot; Oahu, Hawaii</span>
+        </div>
+      </a>
+      <button class="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a class="active" href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="cta-group">
+        <a class="btn secondary sm" href="contact.html">Request Service</a>
+        <a class="btn primary sm" href="tel:+18085514517">&#9889; (808) 551-4517</a>
+      </div>
     </div>
   </header>
 
   <main>
+
+    <!-- ── PAGE HERO ──────────────────────────────────────────────── -->
     <section class="page-hero">
-      <div class="container wrap">
-        <div>
-          <div class="eyebrow">Portfolio structure for future project proof</div>
-          <h1>Show the work. Let the results do some talking.</h1>
-          <p>This gallery page is designed to hold before and after visuals, job captions, project types, and light case study detail. Right now it uses abstract placeholders so the structure is ready for real project images later.</p>
-        </div>
-        <div class="photo-frame float" data-label="Project Proof"><div class="photo-abstract"></div></div>
-      </div>
-    </section>
-
-    <section>
       <div class="container">
-        <div class="section-head reveal"><h2>Gallery categories</h2><p>These blocks map well to common electrical service demand and the public service categories tied to JM Electric LLC.</p></div>
-        <div class="grid-2">
-          <article class="gallery-card reveal"><div class="photo-frame" data-label="Panel Upgrade"><div class="photo-abstract"></div></div><h3>Panel upgrades</h3><p>Use this card for service equipment upgrades, meter work, cleaner installs, and capacity improvement projects.</p></article>
-          <article class="gallery-card reveal"><div class="photo-frame" data-label="Residential Lighting"><div class="photo-abstract"></div></div><h3>Lighting installs</h3><p>Display interior, exterior, and feature lighting work with short captions that explain what changed and why it matters.</p></article>
-          <article class="gallery-card reveal"><div class="photo-frame" data-label="Commercial Work"><div class="photo-abstract"></div></div><h3>Commercial electrical</h3><p>Use this area for build-outs, service improvements, and organized jobsite imagery that speaks to project managers.</p></article>
-          <article class="gallery-card reveal"><div class="photo-frame" data-label="Repairs and Wiring"><div class="photo-abstract"></div></div><h3>Repair and wiring projects</h3><p>Simple issue-and-solution captions help clients understand the quality of work without needing an engineering lecture.</p></article>
+        <div style="max-width:700px;">
+          <div class="eyebrow">Residential &middot; Commercial &middot; Specialty Work</div>
+          <h1>The Work<br>Speaks for Itself.</h1>
+          <p>A look at panels, conduit systems, fire alarm installations, access control, and real electrical work completed by JM Electric LLC across Oahu.</p>
+          <div class="page-hero-actions">
+            <a class="btn primary lg" href="tel:+18085514517">&#9889; Call (808) 551-4517</a>
+            <a class="btn secondary" href="contact.html">Request a Quote</a>
+          </div>
         </div>
       </div>
     </section>
 
-    <section>
-      <div class="container grid-3">
-        <article class="card reveal"><div class="kicker">Caption format</div><h3>Problem, fix, result</h3><p>Each project block should explain the condition found, the work completed, and the outcome. Tight copy works better than bloated contractor poetry.</p></article>
-        <article class="card reveal"><div class="kicker">SEO value</div><h3>Project-specific alt text and captions</h3><p>Real image filenames, alt text, and project location mentions add useful local relevance for image search and organic visibility.</p></article>
-        <article class="card reveal"><div class="kicker">Trust value</div><h3>Real proof beats claims</h3><p>Potential clients want to see workmanship, organization, and consistency. Photos do that faster than slogans do.</p></article>
+    <!-- ── FILTER TABS ────────────────────────────────────────────── -->
+    <section class="section" style="padding-top:0;padding-bottom:20px;">
+      <div class="container">
+        <div class="filter-tabs">
+          <button class="filter-tab active" data-filter="all">All Projects</button>
+          <button class="filter-tab" data-filter="panel">Panel Work</button>
+          <button class="filter-tab" data-filter="commercial">Commercial</button>
+          <button class="filter-tab" data-filter="team">Team in Action</button>
+          <button class="filter-tab" data-filter="smart">Smart Systems</button>
+        </div>
       </div>
     </section>
+
+    <!-- ── GALLERY GRID ───────────────────────────────────────────── -->
+    <section class="section" style="padding-top:0;">
+      <div class="container">
+        <div class="gallery-grid">
+
+          <!-- Panel / Before shots -->
+          <div class="gallery-card"
+               data-cat="panel"
+               data-src="img/IMG_9277.JPG"
+               data-caption="Residential panel assessment — breaker box, Oahu">
+            <img src="img/IMG_9277.JPG" alt="Old residential electrical panel before upgrade — Oahu, Hawaii" />
+            <div class="overlay">
+              <h4>Panel Assessment</h4>
+              <p>Residential service upgrade evaluation</p>
+            </div>
+          </div>
+
+          <div class="gallery-card"
+               data-cat="panel"
+               data-src="img/IMG_9364.jpg"
+               data-caption="Aged fuse box and GE meter before replacement — residential Oahu">
+            <img src="img/IMG_9364.jpg" alt="Rusty fuse box and meter before panel upgrade — Oahu" />
+            <div class="overlay">
+              <h4>Fuse Box &amp; Meter</h4>
+              <p>Before service panel replacement</p>
+            </div>
+          </div>
+
+          <div class="gallery-card"
+               data-cat="commercial"
+               data-src="img/IMG_4031.JPG"
+               data-caption="Conduit installation on commercial building — JM Electric, Oahu">
+            <img src="img/IMG_4031.JPG" alt="JM Electric technician drilling conduit on commercial building" />
+            <div class="overlay">
+              <h4>Conduit Installation</h4>
+              <p>Commercial electrical rough-in</p>
+            </div>
+          </div>
+
+          <div class="gallery-card"
+               data-cat="panel"
+               data-src="img/IMG_9403.jpg"
+               data-caption="Heavily corroded enclosed knife-switch fuse box — before replacement">
+            <img src="img/IMG_9403.jpg" alt="Very old rusty enclosed switch fuse box requiring full replacement" />
+            <div class="overlay">
+              <h4>Old Knife-Switch Box</h4>
+              <p>Before full service replacement</p>
+            </div>
+          </div>
+
+          <div class="gallery-card"
+               data-cat="commercial"
+               data-src="img/IMG_3982 - Copy.JPG"
+               data-caption="Fire alarm pull station installation with conduit — commercial project, Oahu">
+            <img src="img/IMG_3982 - Copy.JPG" alt="Fire alarm pull station installed with EMT conduit" />
+            <div class="overlay">
+              <h4>Fire Alarm Pull Station</h4>
+              <p>Commercial life safety system</p>
+            </div>
+          </div>
+
+          <div class="gallery-card"
+               data-cat="team"
+               data-src="img/IMG_4039.JPG"
+               data-caption="JM Electric technician working at ceiling height — commercial install">
+            <img src="img/IMG_4039.JPG" alt="JM Electric electrician on ladder performing ceiling installation" />
+            <div class="overlay">
+              <h4>Ceiling Installation</h4>
+              <p>Commercial electrical work</p>
+            </div>
+          </div>
+
+          <div class="gallery-card"
+               data-cat="smart"
+               data-src="img/IMG_4058.JPG"
+               data-caption="Key card / fob access control reader installation — commercial smart systems">
+            <img src="img/IMG_4058.JPG" alt="Key fob access control reader being installed on wall" />
+            <div class="overlay">
+              <h4>Access Control Reader</h4>
+              <p>Smart systems &amp; security</p>
+            </div>
+          </div>
+
+          <div class="gallery-card"
+               data-cat="panel"
+               data-src="img/IMG_7136.JPG"
+               data-caption="Old fuse panel before electrical service upgrade — Oahu home">
+            <img src="img/IMG_7136.JPG" alt="Old screw-in fuse panel before upgrade" />
+            <div class="overlay">
+              <h4>Old Fuse Panel</h4>
+              <p>Before residential service upgrade</p>
+            </div>
+          </div>
+
+          <div class="gallery-card"
+               data-cat="commercial"
+               data-src="img/IMG_4015 - Copy.JPG"
+               data-caption="Conduit runs and fire alarm device — commercial interior installation">
+            <img src="img/IMG_4015 - Copy.JPG" alt="EMT conduit runs with fire alarm device on commercial ceiling" />
+            <div class="overlay">
+              <h4>Conduit &amp; Fire Alarm</h4>
+              <p>Commercial interior systems</p>
+            </div>
+          </div>
+
+          <div class="gallery-card"
+               data-cat="team"
+               data-src="img/IMG_4006.JPG"
+               data-caption="Electrician bending conduit on commercial job site — Oahu">
+            <img src="img/IMG_4006.JPG" alt="JM Electric team member with conduit bender on job site" />
+            <div class="overlay">
+              <h4>Conduit Bending</h4>
+              <p>Field prep on commercial job site</p>
+            </div>
+          </div>
+
+          <div class="gallery-card"
+               data-cat="team"
+               data-src="img/IMG_71362.JPG"
+               data-caption="JM Electric technician performing residential electrical work">
+            <img src="img/IMG_71362.JPG" alt="JM Electric technician with drill performing electrical work" />
+            <div class="overlay">
+              <h4>Residential Install</h4>
+              <p>Panel &amp; electrical rough-in</p>
+            </div>
+          </div>
+
+          <div class="gallery-card"
+               data-cat="commercial"
+               data-src="img/IMG_4023.JPG"
+               data-caption="Commercial ceiling tile work — security camera and electrical installation">
+            <img src="img/IMG_4023.JPG" alt="Commercial ceiling installation — security camera positioning" />
+            <div class="overlay">
+              <h4>Commercial Ceiling Work</h4>
+              <p>Security &amp; electrical systems</p>
+            </div>
+          </div>
+
+          <div class="gallery-card"
+               data-cat="commercial"
+               data-src="img/IMG_3984 - Copy.JPG"
+               data-caption="Commercial wall prep for electrical rough-in — Oahu building">
+            <img src="img/IMG_3984 - Copy.JPG" alt="Commercial wall surface before electrical outlet rough-in" />
+            <div class="overlay">
+              <h4>Commercial Rough-In Prep</h4>
+              <p>Pre-installation site work</p>
+            </div>
+          </div>
+
+          <div class="gallery-card"
+               data-cat="team"
+               data-src="img/IMG_71369.JPG"
+               data-caption="JM Electric crew on commercial electrical project — Oahu">
+            <img src="img/IMG_71369.JPG" alt="JM Electric team on commercial job site Oahu" />
+            <div class="overlay">
+              <h4>Team on Site</h4>
+              <p>Commercial project, Oahu</p>
+            </div>
+          </div>
+
+          <div class="gallery-card"
+               data-cat="commercial"
+               data-src="img/IMG_4025.JPG"
+               data-caption="Commercial electrical installation — JM Electric project Oahu">
+            <img src="img/IMG_4025.JPG" alt="Commercial electrical work in progress — Oahu" />
+            <div class="overlay">
+              <h4>Commercial Electrical</h4>
+              <p>JM Electric — Oahu project</p>
+            </div>
+          </div>
+
+          <div class="gallery-card"
+               data-cat="commercial"
+               data-src="img/IMG_4026.JPG"
+               data-caption="Commercial wiring and device installation — Oahu">
+            <img src="img/IMG_4026.JPG" alt="Commercial electrical device installation" />
+            <div class="overlay">
+              <h4>Device Installation</h4>
+              <p>Commercial wiring project</p>
+            </div>
+          </div>
+
+          <div class="gallery-card"
+               data-cat="commercial"
+               data-src="img/IMG_4008.JPG"
+               data-caption="Commercial electrical work — JM Electric LLC, Oahu Hawaii">
+            <img src="img/IMG_4008.JPG" alt="Commercial electrical project — JM Electric Oahu" />
+            <div class="overlay">
+              <h4>Commercial Project</h4>
+              <p>JM Electric LLC &mdash; Oahu</p>
+            </div>
+          </div>
+
+          <div class="gallery-card"
+               data-cat="panel"
+               data-src="img/IMG_3980 - Copy.JPG"
+               data-caption="Electrical panel work — JM Electric LLC residential project">
+            <img src="img/IMG_3980 - Copy.JPG" alt="Electrical panel residential project" />
+            <div class="overlay">
+              <h4>Panel Work</h4>
+              <p>Residential electrical service</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CTA BANNER ─────────────────────────────────────────────── -->
+    <section class="section" style="padding-top:0;">
+      <div class="container">
+        <div class="cta-banner reveal">
+          <div class="eyebrow" style="margin:0 auto 16px;">319+ projects on Oahu</div>
+          <h2>Ready to Start Your Project?</h2>
+          <p>Call or submit a request to get a fast, honest quote from JM Electric LLC &mdash; serving all of Oahu from Kapolei.</p>
+          <div class="actions">
+            <a class="btn primary lg" href="tel:+18085514517">&#9889; Call (808) 551-4517</a>
+            <a class="btn secondary" href="contact.html">Request a Quote Online</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
 
-  <footer class="footer"><div class="container footer-grid"><div><strong>JM Electric LLC</strong><br>91-1084 Kahalepouli St, Kapolei, HI 96707</div><div class="footer-nav"><a href="index.html">Home</a><a href="services.html">Services</a><a href="about.html">About</a><a href="contact.html">Contact</a></div></div></footer>
+  <!-- ── FOOTER ─────────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand-logo">
+            <img src="img/Gemini_Generated_Image_ub707tub707tub70.png" alt="JM Electric LLC" />
+          </div>
+          <strong>JM Electric LLC</strong>
+          <p>Licensed electrical contractor<br>serving all of Oahu, Hawaii<br>since January 2010.</p>
+          <p style="margin-top:14px;font-size:0.84rem;">91-1084 Kahalepouli St<br>Kapolei, HI 96707</p>
+        </div>
+        <div class="footer-col">
+          <h5>Services</h5>
+          <a href="services.html">Panel Upgrades</a>
+          <a href="services.html">Wiring &amp; Repairs</a>
+          <a href="services.html">Commercial Work</a>
+          <a href="services.html">Smart Systems</a>
+          <a href="services.html">Solar-Ready</a>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <a href="about.html">About Us</a>
+          <a href="gallery.html">Our Work</a>
+          <a href="contact.html">Contact</a>
+          <a href="https://jmelect.com" target="_blank" rel="noopener">jmelect.com</a>
+        </div>
+        <div class="footer-col">
+          <h5>Contact</h5>
+          <a href="tel:+18085514517">(808) 551-4517</a>
+          <a href="https://maps.google.com/?q=91-1084+Kahalepouli+St+Kapolei+HI+96707" target="_blank" rel="noopener">Get Directions</a>
+          <a href="contact.html">Request a Quote</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2025 JM Electric LLC &middot; Kapolei, Oahu, Hawaii</span>
+        <span>Licensed Electrical Contractor &middot; Hawaii DCCA</span>
+      </div>
+    </div>
+  </footer>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
   <script src="assets/main.js"></script>
