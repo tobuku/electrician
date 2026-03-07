@@ -267,9 +267,9 @@
     start: 'top -80',
     onUpdate: self => {
       const bar = q('.topbar');
-      if (bar) bar.style.background = self.progress > 0
-        ? 'rgba(7,19,31,0.96)'
-        : 'rgba(7,19,31,0.84)';
+      if (bar) bar.style.boxShadow = self.progress > 0
+        ? '0 4px 24px rgba(52,97,193,0.12)'
+        : '0 2px 20px rgba(52,97,193,0.07)';
     }
   });
 
