@@ -13,11 +13,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact JM Electric LLC, Oahu, Hawaii (808) 551-4517</title>
   <meta name="description" content="Contact JM Electric LLC in Oahu, Hawaii. Call (808) 551-4517, request a quote, or send a message. Serving all of Oahu for residential and commercial electrical." />
-  <link rel="canonical" href="https://tobuku.github.io/electrician/contact.html" />
+  <link rel="canonical" href="https://electriciansoahu.com/contact.html" />
   <meta property="og:title" content="Contact JM Electric LLC, Oahu, Hawaii (808) 551-4517">
   <meta property="og:description" content="Contact JM Electric LLC in Oahu, Hawaii. Call (808) 551-4517, request a quote, or send a message.">
   <meta property="og:type" content="article">
-  <meta property="og:url" content="https://tobuku.github.io/electrician/contact.html">
+  <meta property="og:image" content="https://electriciansoahu.com/img/hero-logo-no-background.png">
+  <meta property="og:url" content="https://electriciansoahu.com/contact.html">
   <link rel="icon" href="img/jm_electric_favicon.ico" type="image/x-icon" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -164,7 +165,7 @@
           <div class="form-wrap reveal-right">
             <div class="kicker" style="margin-bottom:6px;">Get in Touch</div>
             <h3 style="margin-bottom:20px;font-size:1.35rem;">Send a Project Request</h3>
-            <form action="#" method="post" onsubmit="handleFormSubmit(event)">
+            <form action="https://formspree.io/f/xvkgjngr" method="POST">
               <div class="form-row">
                 <div class="field">
                   <label for="name">Your Name</label>
@@ -216,9 +217,7 @@
                   Send Request &#8594;
                 </button>
               </div>
-              <p id="form-msg" style="margin-top:12px;text-align:center;font-size:0.88rem;display:none;color:var(--success);">
-                &#10003; Message sent! We&rsquo;ll be in touch soon.
-              </p>
+              <input type="hidden" name="_next" value="https://electriciansoahu.com/contact.html?sent=1" />
               <p style="margin-top:14px;text-align:center;font-size:0.82rem;color:var(--dimmed);">
                 Prefer to call? <a href="tel:+18085514517" style="color:var(--primary);">(808) 551-4517</a>
               </p>
@@ -311,7 +310,7 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <span>&copy; 2025 JM Electric LLC &middot; Oahu, Hawaii</span>
+        <span>&copy; 2026 JM Electric LLC &middot; Oahu, Hawaii</span>
         <span>Licensed Electrical Contractor &middot; Hawaii DCCA</span>
       </div>
     </div>
@@ -320,24 +319,5 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
   <script src="assets/main.js"></script>
-  <script>
-    function handleFormSubmit(e) {
-      e.preventDefault();
-      const btn = e.target.querySelector('[type=submit]');
-      const msg = document.getElementById('form-msg');
-      btn.textContent = 'Sending\u2026';
-      btn.disabled = true;
-      setTimeout(() => {
-        btn.textContent = '\u2713 Sent!';
-        msg.style.display = 'block';
-        e.target.reset();
-        setTimeout(() => {
-          btn.textContent = 'Send Request \u2192';
-          btn.disabled = false;
-          msg.style.display = 'none';
-        }, 4000);
-      }, 900);
-    }
-  </script>
 </body>
 </html>
